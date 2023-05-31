@@ -59,7 +59,8 @@ jobs:
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
       run:
-        working-directory: src
+        shell: bash
+        working-directory: .
 
     steps:
     # Checkout the repository to the GitHub Actions runner
